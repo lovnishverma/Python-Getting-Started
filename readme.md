@@ -1,6 +1,6 @@
 # Python Data Science Repository
 
-![images](https://github.com/user-attachments/assets/cff2cb24-7a86-4d66-8650-fb89a5c9141c)
+![DS_Python](https://github.com/user-attachments/assets/9c4f6d08-891b-484a-860d-81fefaca5e61)
 
 
 This repository contains Colab Notebooks covering essential Python topics for data science, including NumPy, Matplotlib, Pandas, and basic Python concepts.
