@@ -1,4 +1,4 @@
-
+ ![DS\_Python](https://github.com/user-attachments/assets/9c4f6d08-891b-484a-860d-81fefaca5e61)
 ---
 
 # 🧠 Python for Data Science – Colab Notebooks Repository
@@ -45,10 +45,6 @@ This repository is a curated collection of **Google Colab Notebooks** and **reso
 | [`readme.md`](readme.md)                                                                                               | You’re reading it 📘                                                |
 
 ---
-
-## 📊 Visual Preview
-
-![DS\_Python](https://github.com/user-attachments/assets/9c4f6d08-891b-484a-860d-81fefaca5e61)
 
 ![Colab](https://github.com/user-attachments/assets/61ae0883-9bbb-442d-b59c-a15e6dacc38d)
 
