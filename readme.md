@@ -1,4 +1,3 @@
-Here's a complete and professional `README.md` file for your **Python Data Science Repository**, covering **all the notebooks and files** you've listed:
 
 ---
 
