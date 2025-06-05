@@ -103,4 +103,4 @@ For queries, collaborations, or feedback:
 
 ---
 
-Would you like a `mkdocs` or `Jupyter Book` site version of this repo too?
+Made with lots of ❤️...
