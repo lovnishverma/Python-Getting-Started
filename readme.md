@@ -10,8 +10,8 @@
 [![Google Colab](https://img.shields.io/badge/Google-Colab-yellow)](https://colab.research.google.com/)
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/lovnishverma)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/lovnishverma/Python-for-Data-Science.svg?style=social&label=Star)](https://github.com/lovnishverma/Python-for-Data-Science)
-[![GitHub forks](https://img.shields.io/github/forks/lovnishverma/Python-for-Data-Science.svg?style=social&label=Fork)](https://github.com/lovnishverma/Python-for-Data-Science/fork)
+[![GitHub stars](https://img.shields.io/github/stars/lovnishverma/Python-Getting-Started.svg?style=social&label=Star)](https://github.com/lovnishverma/Python-Getting-Started)
+[![GitHub forks](https://img.shields.io/github/forks/lovnishverma/Python-Getting-Started.svg?style=social&label=Fork)](https://github.com/lovnishverma/Python-Getting-Started/fork)
 
 *A complete collection of **Google Colab Notebooks**, **PDFs**, and **resources** created by **Lovnish Verma** for learning and teaching Python programming, Data Science, Machine Learning, and Deep Learning concepts interactively.*
 
