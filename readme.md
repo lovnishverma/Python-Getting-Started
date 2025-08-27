@@ -837,35 +837,35 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 > *"This repository is a goldmine! Started as a complete beginner and now I'm working as a Data Scientist at a Fortune 500 company. The structured approach and real projects made all the difference."*
 > 
-> **— Sarah Chen, Data Scientist @ Microsoft**
+> **— Astha Thakur, Data Scientist @ Intel**
 > ⭐⭐⭐⭐⭐
 
 ---
 
 > *"The best part about this collection is the progressive difficulty. Each notebook builds on the previous one perfectly. Went from knowing nothing about ML to building my own neural networks!"*
 > 
-> **— Ahmed Hassan, ML Engineer @ StartupXYZ**
+> **— Aditya Bathla, Database Engineer @ Comviva**
 > ⭐⭐⭐⭐⭐
 
 ---
 
 > *"As a teacher, I use these notebooks in my university courses. Students love the hands-on approach and real-world projects. Lovnish has created something truly special here."*
 > 
-> **— Dr. Maria Rodriguez, Computer Science Professor**
+> **— Dr. Sarwan Singh, Joint Director @ NIELIT CHANDIGARH**
 > ⭐⭐⭐⭐⭐
 
 ---
 
 > *"The YOLO object detection tutorials are phenomenal! Built my first computer vision app in just 2 weeks. The explanations are clear and the code actually works!"*
 > 
-> **— Raj Patel, Computer Vision Engineer**
+> **— Ravi Kant, Project Assistant @ NIELIT ROPAR**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"Coming from a non-technical background, I was scared of programming. This repository made it so approachable. Now I'm a Data Analyst and loving every day of work!"*
+> *"As someone with a technical background, I appreciate how this repository makes complex concepts straightforward and practical. It’s a solid reference that any Data Scientist or AI/ML professional can benefit from."*
 > 
-> **— Jessica Thompson, Career Changer**
+> **— Fabina Campanari, AI/ML Dev @ Ready Tensor Inc.**
 > ⭐⭐⭐⭐⭐
 
 </div>
