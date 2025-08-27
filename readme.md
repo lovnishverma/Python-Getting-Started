@@ -792,8 +792,8 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 | **📚 Notebooks** | 50+ | +15 this quarter |
 | **📄 PDF Resources** | 10+ | +3 recent additions |
 | **👥 Users** | 2,500+ | +500/month average |
-| **⭐ GitHub Stars** | 850+ | Growing daily |
-| **🍴 Forks** | 420+ | Active community |
+| **⭐ GitHub Stars** | 100+ | Growing daily |
+| **🍴 Forks** | 100+ | Active community |
 | **🐛 Issues Resolved** | 95+ | 24hr avg response |
 | **💬 Discussions** | 150+ | Active community |
 | **🌍 Countries** | 45+ | Global reach |
@@ -989,7 +989,7 @@ We believe in the power of collaborative learning! Whether you're a beginner or 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/lovnishverma)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/lovnishverma)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:princelv84@gmail.com)
-[![Website](https://img.shields.io/badge/Website-Visit-green)](https://lovnishverma.dev)
+[![Website](https://img.shields.io/badge/Website-Visit-green)](https://lovnishverma.github.io)
 
 </div>
 
