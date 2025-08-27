@@ -981,7 +981,7 @@ We believe in the power of collaborative learning! Whether you're a beginner or 
 
 <div align="center">
 
-![Lovnish Verma](https://github.com/user-attachments/assets/profile-picture-placeholder)
+![Lovnish Verma](https://avatars.githubusercontent.com/u/54941901?s=96&v=4)
 
 ### **Lovnish Verma**
 *Passionate Educator & AI Engineer*
