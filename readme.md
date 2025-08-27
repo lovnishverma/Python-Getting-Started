@@ -50,8 +50,6 @@
 
 ---
 
-![Footer Image](https://github.com/user-attachments/assets/footer-learning-image-placeholder)
-
 *© 2025 Lovnish Verma. Licensed under GPL-3.0. Built with passion for education.* 
 
 </div>
@@ -228,8 +226,8 @@ drive.mount('/content/drive')
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/lovnishverma/Python-for-Data-Science.git
-   cd Python-for-Data-Science
+   git clone https://github.com/lovnishverma/Python-Getting-Started.git
+   cd Python-Getting-Started
    ```
 
 2. **Launch Jupyter:**
