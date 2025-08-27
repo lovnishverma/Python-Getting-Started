@@ -792,8 +792,8 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 | **📚 Notebooks** | 50+ | +15 this quarter |
 | **📄 PDF Resources** | 10+ | +3 recent additions |
 | **👥 Users** | 2,500+ | +500/month average |
-| **⭐ GitHub Stars** | 100+ | Growing daily |
-| **🍴 Forks** | 100+ | Active community |
+| **⭐ GitHub Stars** | 400+ | Growing daily |
+| **🍴 Forks** | 200+ | Active community |
 | **🐛 Issues Resolved** | 95+ | 24hr avg response |
 | **💬 Discussions** | 150+ | Active community |
 | **🌍 Countries** | 45+ | Global reach |
