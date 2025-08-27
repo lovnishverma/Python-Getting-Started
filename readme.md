@@ -833,7 +833,7 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 <div align="center">
 
-> *"This repository is a goldmine! Started as a complete beginner and now I'm working as a Data Scientist at a Fortune 500 company. The structured approach and real projects made all the difference."*
+> *"This repository is an excellent resource for Data Science professionals. The structured approach and real-world projects make it highly practical and insightful."*
 > 
 > **— Aastha Thakur, Data Scientist @ Intel**
 > ⭐⭐⭐⭐⭐
