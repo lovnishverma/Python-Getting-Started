@@ -106,8 +106,8 @@ From Python basics to cutting-edge AI implementations, this repository provides 
    # Just click on any .ipynb file and select "Open in Colab"
    
    # Option 2: Local Jupyter
-   git clone https://github.com/lovnishverma/Python-for-Data-Science.git
-   cd Python-for-Data-Science
+   git clone https://github.com/lovnishverma/Python-Getting-Started.git
+   cd Python-Getting-Started
    jupyter notebook
    
    # Option 3: GitHub Codespaces
