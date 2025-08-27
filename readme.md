@@ -837,7 +837,7 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 > *"This repository is a goldmine! Started as a complete beginner and now I'm working as a Data Scientist at a Fortune 500 company. The structured approach and real projects made all the difference."*
 > 
-> **— Astha Thakur, Data Scientist @ Intel**
+> **— Aastha Thakur, Data Scientist @ Intel**
 > ⭐⭐⭐⭐⭐
 
 ---
@@ -849,7 +849,7 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 ---
 
-> *"As a teacher, I use these notebooks in my university courses. Students love the hands-on approach and real-world projects. Lovnish has created something truly special here."*
+> *"These notebooks provide a hands-on approach and real-world projects that students find engaging. Lovnish has created a truly valuable educational resource."*
 > 
 > **— Dr. Sarwan Singh, Joint Director @ NIELIT CHANDIGARH**
 > ⭐⭐⭐⭐⭐
