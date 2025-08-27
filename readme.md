@@ -1002,17 +1002,17 @@ We believe in the power of collaborative learning! Whether you're a beginner or 
 - **🏢 Backend Developer** specializing in Python and AI systems
 
 **Background:**
-- **🎓 Education**: M.Tech in Computer Science, B.Tech in Software Engineering
-- **💼 Experience**: 8+ years in software development and data science
-- **🏆 Achievements**: 15+ published research papers, 5 patents pending
-- **🌍 Impact**: Trained 25,000+ students across 45+ countries
+- **🎓 Education**: B.Tech in Computer Science Engineering, 3 Years Diploma in Computer Engineering
+- **💼 Experience**: 3+ years in software development and data science
+- **🏆 Achievements**: 5+ published research papers, 1 patents pending
+- **🌍 Impact**: Trained 25,000+ students and Govt. Officials across country 
 
 ### **💡 Expertise Areas**
 
 **🐍 Programming & Development:**
-- **Languages**: Python, Java, JavaScript, SQL, R
+- **Languages**: Python, C, Java, JavaScript, SQL
 - **Frameworks**: Django, Flask, FastAPI, React, Node.js
-- **Databases**: PostgreSQL, MongoDB, Redis, ElasticSearch
+- **Databases**: MySQL, PostgreSQL, MongoDB, Redis, ElasticSearch
 - **Cloud**: AWS, GCP, Azure, Docker, Kubernetes
 
 **🧠 AI & Machine Learning:**
