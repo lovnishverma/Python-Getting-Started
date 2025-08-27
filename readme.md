@@ -1093,12 +1093,12 @@ We believe in the power of collaborative learning! Whether you're a beginner or 
 **🌐 Professional Networks**
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lovnishverma)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lovnishverma)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/lovnishverma)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/lovnishofficial)
 
 **📱 Community Channels**
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/python-datascience)
-[![Telegram](https://img.shields.io/badge/Telegram-Subscribe-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pythondatascience)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/lovnishverma)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/lovnishverma)
+[![Telegram](https://img.shields.io/badge/Telegram-Subscribe-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/lovnishverma)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@lovnishverma)
 
 </div>
 
@@ -1250,7 +1250,7 @@ For the complete license terms, see the [LICENSE](LICENSE) file in the repositor
 - **🏢 Corporate Partners**: Real-world use cases and industry insights
 
 **👥 Community Heroes:**
-- **📝 Top Contributors**: @contributor1, @contributor2, @contributor3
+- **📝 Top Contributors**: @NikshepPaliwal, @itsluckysharma01, @amanchoudhary2112
 - **🐛 Bug Hunters**: Community members who found and reported critical issues
 - **📚 Documentation Team**: Volunteers who improved guides and explanations
 - **🌍 Translators**: Making content accessible in multiple languages
