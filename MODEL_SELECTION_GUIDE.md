@@ -854,4 +854,4 @@ If this guide helped you, please give it a star! It helps others discover this r
 
 ---
 
-*Last updated: 2024 | Created with ❤️ for the ML community*
+*Last updated: August 2025 | Created with ❤️ by Lovnish Verma for the ML community*
