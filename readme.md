@@ -308,8 +308,8 @@ drive.mount('/content/drive')
 | [`dataset_distribution_in_classification_models.ipynb`](dataset_distribution_in_classification_models.ipynb)     | Dataset distribution analysis and techniques           | 2-3 hours | Statistics, ML         |
 | [`scaling.md`](scaling.md)                                                                                       | Guide on feature scaling techniques and best practices | 30-40 min | Basic ML knowledge     |
 | [`slicing.md`](slicing.md)                                                                                       | How to slice datasets efficiently for ML workflows     | 20-30 min | Python basics          |
-| \[`Logistic Regression vs. Linear Regression.md`]\(Logistic Regression vs. Linear Regression.md)                 | Differences, use cases, and examples                   | 20-30 min | Statistics, Regression |
-| \[`Encoding in Machine Learning.md`]\(Encoding in Machine Learning.md)                                           | Categorical variable encoding techniques               | 20-30 min | Python, ML basics      |
+| [`Logistic Regression vs. Linear Regression.md`](Logistic Regression vs. Linear Regression.md)                 | Differences, use cases, and examples                   | 20-30 min | Statistics, Regression |
+| [`Encoding in Machine Learning.md`](Encoding in Machine Learning.md)                                           | Categorical variable encoding techniques               | 20-30 min | Python, ML basics      |
 | [`DataCleaningGuide.md`](DataCleaningGuide.md)                                                                   | Data preprocessing and cleaning techniques             | 40-50 min | Python, Pandas         |
 | [`MODEL_SELECTION_GUIDE.md`](MODEL_SELECTION_GUIDE.md)                                                           | Guide on selecting the right ML model                  | 40-50 min | ML basics              |
 
