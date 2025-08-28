@@ -293,16 +293,27 @@ drive.mount('/content/drive')
 | [`Matplotlib_Seaborn.ipynb`](Matplotlib_Seaborn.ipynb) | Advanced statistical plots with Seaborn | 4-5 hours | Matplotlib basics |
 | [`Boxplot.ipynb`](Boxplot.ipynb) | Box plot analysis and statistical interpretation | 2-3 hours | Basic statistics |
 
+---
+
 ### 🤖 **Machine Learning**
+
 *⏱️ Learning Time: 25-30 hours | 🎯 Difficulty: Intermediate*
 
-| Notebook/File | Description | Duration | Prerequisites |
-|---------------|-------------|----------|---------------|
-| [`Scikit_Learn_Machine_Learning_in_Python_.ipynb`](Scikit_Learn_Machine_Learning_in_Python_.ipynb) | Complete Scikit-Learn tutorial and algorithms | 6-8 hours | Data Science stack |
-| [`hello_world_of_ML.ipynb`](hello_world_of_ML.ipynb) | Introduction to ML concepts and workflow | 2-3 hours | Basic statistics |
-| [`Classification_using_Supervised_Learning_Models.ipynb`](Classification_using_Supervised_Learning_Models.ipynb) | Supervised learning classification models | 4-5 hours | ML basics |
-| [`Distribute_Datasets_for_Classification_Models.ipynb`](Distribute_Datasets_for_Classification_Models.ipynb) | Handling class imbalance in classification | 3-4 hours | Classification |
-| [`dataset_distribution_in_classification_models.ipynb`](dataset_distribution_in_classification_models.ipynb) | Dataset distribution analysis and techniques | 2-3 hours | Statistics, ML |
+| Notebook/File                                                                                                    | Description                                            | Duration  | Prerequisites          |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------- | ---------------------- |
+| [`Scikit_Learn_Machine_Learning_in_Python_.ipynb`](Scikit_Learn_Machine_Learning_in_Python_.ipynb)               | Complete Scikit-Learn tutorial and algorithms          | 6-8 hours | Data Science stack     |
+| [`hello_world_of_ML.ipynb`](hello_world_of_ML.ipynb)                                                             | Introduction to ML concepts and workflow               | 2-3 hours | Basic statistics       |
+| [`Classification_using_Supervised_Learning_Models.ipynb`](Classification_using_Supervised_Learning_Models.ipynb) | Supervised learning classification models              | 4-5 hours | ML basics              |
+| [`Distribute_Datasets_for_Classification_Models.ipynb`](Distribute_Datasets_for_Classification_Models.ipynb)     | Handling class imbalance in classification             | 3-4 hours | Classification         |
+| [`dataset_distribution_in_classification_models.ipynb`](dataset_distribution_in_classification_models.ipynb)     | Dataset distribution analysis and techniques           | 2-3 hours | Statistics, ML         |
+| [`scaling.md`](scaling.md)                                                                                       | Guide on feature scaling techniques and best practices | 30-40 min | Basic ML knowledge     |
+| [`slicing.md`](slicing.md)                                                                                       | How to slice datasets efficiently for ML workflows     | 20-30 min | Python basics          |
+| \[`Logistic Regression vs. Linear Regression.md`]\(Logistic Regression vs. Linear Regression.md)                 | Differences, use cases, and examples                   | 20-30 min | Statistics, Regression |
+| \[`Encoding in Machine Learning.md`]\(Encoding in Machine Learning.md)                                           | Categorical variable encoding techniques               | 20-30 min | Python, ML basics      |
+| [`DataCleaningGuide.md`](DataCleaningGuide.md)                                                                   | Data preprocessing and cleaning techniques             | 40-50 min | Python, Pandas         |
+| [`MODEL_SELECTION_GUIDE.md`](MODEL_SELECTION_GUIDE.md)                                                           | Guide on selecting the right ML model                  | 40-50 min | ML basics              |
+
+---
 
 ### 📊 **Real-World ML Projects**
 *⏱️ Learning Time: 20-25 hours | 🎯 Difficulty: Intermediate to Advanced*
