@@ -434,25 +434,37 @@ graph TD
 **📋 Assessment**: Build a complete EDA project
 
 ### **Phase 3: Machine Learning** 🤖
+
 *⏱️ Duration: 4-5 weeks | 📚 Total: 30-35 hours*
 
 **Week 1: ML Fundamentals**
-- [ ] `hello_world_of_ML.ipynb` (2-3 hours)
-- [ ] `Scikit_Learn_Machine_Learning_in_Python_.ipynb` (6-8 hours)
+
+* [ ] `hello_world_of_ML.ipynb` (2-3 hours)
+* [ ] `Scikit_Learn_Machine_Learning_in_Python_.ipynb` (6-8 hours)
+* [ ] `DataCleaningGuide.md` (40-50 min)
+* [ ] `Encoding in Machine Learning.md` (20-30 min)
+* [ ] `scaling.md` (30-40 min)
+* [ ] `slicing.md` (20-30 min)
 
 **Week 2: Classification**
-- [ ] `Classification_using_Supervised_Learning_Models.ipynb` (4-5 hours)
-- [ ] `iris(step_bystep).ipynb` (3-4 hours)
+
+* [ ] `Classification_using_Supervised_Learning_Models.ipynb` (4-5 hours)
+* [ ] `iris(step_bystep).ipynb` (3-4 hours)
+* [ ] `Distribute_Datasets_for_Classification_Models.ipynb` (3-4 hours)
+* [ ] `dataset_distribution_in_classification_models.ipynb` (2-3 hours)
+* [ ] `Logistic Regression vs. Linear Regression.md` (20-30 min)
 
 **Week 3: Real Projects**
-- [ ] `TITANIC.ipynb` (4-5 hours)
-- [ ] `Email_Spam_Detection_with_Machine_Learning.ipynb` (4-5 hours)
+
+* [ ] `TITANIC.ipynb` (4-5 hours)
+* [ ] `Email_Spam_Detection_with_Machine_Learning.ipynb` (4-5 hours)
 
 **Week 4: Regression & Advanced Topics**
-- [ ] `Predicting_used_car_prices.ipynb` (3-4 hours)
-- [ ] `Distribute_Datasets_for_Classification_Models.ipynb` (3-4 hours)
 
-**📋 Assessment**: Complete end-to-end ML project
+* [ ] `Predicting_used_car_prices.ipynb` (3-4 hours)
+* [ ] `MODEL_SELECTION_GUIDE.md` (40-50 min)
+
+**📋 Assessment**: Complete an end-to-end ML project integrating preprocessing, classification, regression, and dataset handling.
 
 ### **Phase 4: Deep Learning** 🧠
 *⏱️ Duration: 5-6 weeks | 📚 Total: 35-40 hours*
