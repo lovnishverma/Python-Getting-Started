@@ -863,9 +863,9 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 ---
 
-> *"The best part about this collection is the progressive difficulty. Each notebook builds on the previous one perfectly. Went from knowing nothing about ML to building my own neural networks!"*
+> *"The best part about this collection is the progressive difficulty. Each notebook builds on the previous one perfectly."*
 > 
-> **— Aditya Bathla, Database Engineer @ Comviva**
+> **— Saurabh Bharti, Project Associate @ IIT ROPAR**
 > ⭐⭐⭐⭐⭐
 
 ---
