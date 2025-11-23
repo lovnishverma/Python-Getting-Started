@@ -104,7 +104,7 @@ jobs:
           if ! git diff --quiet .activity/; then
             # Re-apply config to be safe
             git config --global user.name "lovnishverma"
-            git config --global user.email "technicalboyprincce@gmail.com"
+            git config --global user.email "technicalboyprince@gmail.com"
             
             git add .activity/
             git commit -m "🧹 Cleanup: removed old activity logs"
