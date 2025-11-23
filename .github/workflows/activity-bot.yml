@@ -1,0 +1,112 @@
+name: My Activity Bot
+
+on:
+  schedule:
+    # --- WEEKDAY SCHEDULE (IST / UTC) ---
+    # Monday-Friday: Work mode
+    - cron: '0 2 * * 1-5'   # 07:30 AM IST
+    - cron: '0 8 * * 1-5'   # 01:30 PM IST
+    - cron: '0 14 * * 1-5'  # 07:30 PM IST
+    
+    # --- WEEKEND SCHEDULE (IST / UTC) ---
+    # Saturday-Sunday: Relaxed mode (starts later)
+    - cron: '0 3 * * 0,6'   # 08:30 AM IST
+    - cron: '0 9 * * 0,6'   # 02:30 PM IST
+    - cron: '0 15 * * 0,6'  # 08:30 PM IST
+  
+  # Manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for git stats
+          
+      - name: Generate Activity
+        run: |
+          # Create activity directory if it doesn't exist
+          mkdir -p .activity
+          
+          # Generate a unique activity file with timestamp
+          TIMESTAMP=$(date '+%Y-%m-%d_%H-%M-%S')
+          ACTIVITY_FILE=".activity/log_${TIMESTAMP}.txt"
+          
+          # Add varied content to make commits more substantial
+          echo "=== Activity Log ===" > $ACTIVITY_FILE
+          echo "Timestamp: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> $ACTIVITY_FILE
+          echo "Day: $(date '+%A')" >> $ACTIVITY_FILE
+          echo "Week: $(date '+%U')" >> $ACTIVITY_FILE
+          echo "Commit #: $(git rev-list --count HEAD 2>/dev/null || echo 0)" >> $ACTIVITY_FILE
+          echo "" >> $ACTIVITY_FILE
+          echo "Status: Active ✓" >> $ACTIVITY_FILE
+          echo "Random Hash: $RANDOM" >> $ACTIVITY_FILE
+          
+          # Also update a main persistent log file
+          echo "[$(date '+%Y-%m-%d %H:%M:%S')] Automated activity update" >> .activity/main_log.txt
+          
+      - name: Random Delay for Natural Timing
+        run: |
+          # Add random delay (0-8 minutes) to make commits appear more human-like
+          # This prevents all commits from happening at exactly XX:00:00
+          DELAY=$((RANDOM % 480))
+          echo "⏱️  Adding natural delay of $DELAY seconds..."
+          sleep $DELAY
+          
+      - name: Commit Changes
+        run: |
+          # --- CRITICAL CONFIGURATION ---
+          # Using your real email so GitHub credits YOU with the contribution
+          git config --global user.name "lovnishverma"
+          git config --global user.email "technicalboyprincce@gmail.com"
+          
+          git add .activity/
+          
+          # Varied commit messages for more natural activity
+          MESSAGES=(
+            "📊 Daily activity update"
+            "🔄 Automated sync"
+            "✨ Activity log updated"
+            "🤖 Bot: keeping things active"
+            "📝 Regular maintenance"
+            "⚡ Activity checkpoint"
+            "🎯 Daily contribution"
+            "🐛 Minor fix in logs"
+            "🚀 Performance update"
+            "💾 Data sync complete"
+            "🔧 System maintenance"
+            "📈 Stats updated"
+          )
+          
+          # Select a random message
+          RANDOM_MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "$RANDOM_MSG" -m "Generated at: $(date '+%Y-%m-%d %H:%M:%S %Z')"
+            git push
+          fi
+          
+      - name: Cleanup Old Logs
+        run: |
+          # Keep only last 30 days of individual logs to avoid repo bloat
+          find .activity -name "log_*.txt" -type f -mtime +30 -delete
+          
+          # Commit cleanup if files were deleted
+          if ! git diff --quiet .activity/; then
+            # Re-apply config to be safe
+            git config --global user.name "lovnishverma"
+            git config --global user.email "technicalboyprincce@gmail.com"
+            
+            git add .activity/
+            git commit -m "🧹 Cleanup: removed old activity logs"
+            git push
+          fi
