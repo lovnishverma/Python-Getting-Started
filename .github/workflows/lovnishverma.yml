@@ -53,7 +53,7 @@ jobs:
       - name: Commit updates
         run: |
           git config --global user.name "lovnishverma"
-          git config --global user.email "technicalboyprincce@gmail.com"
+          git config --global user.email "technicalboyprince@gmail.com"
           
           git add .sync/
           
