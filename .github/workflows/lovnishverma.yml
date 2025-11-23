@@ -53,7 +53,7 @@ jobs:
       - name: Commit updates
         run: |
           git config --global user.name "lovnishverma"
-          git config --global user.email "technicalboyprince@gmail.com"
+          git config --global user.email "princelv84@gmail.com"
           
           git add .sync/
           
@@ -87,7 +87,7 @@ jobs:
           
           if ! git diff --quiet .sync/; then
             git config --global user.name "lovnishverma"
-            git config --global user.email "technicalboyprince@gmail.com"
+            git config --global user.email "princelv84@gmail.com"
             
             git add .sync/
             git commit -m "Clean up old sync logs"
