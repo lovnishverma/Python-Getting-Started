@@ -1,103 +1,109 @@
 name: lovnishverma
-
 on:
   schedule:
-    # Weekday schedule
-    - cron: '0 2 * * 1-5'
-    - cron: '0 8 * * 1-5'
-    - cron: '0 14 * * 1-5'
-    
-    # Weekend schedule
-    - cron: '0 3 * * 0,6'
-    - cron: '0 9 * * 0,6'
-    - cron: '0 15 * * 0,6'
-  
+    # Run once a day at 04:00 UTC -> 09:30 AM IST
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 jobs:
-  sync:
+  daily-journal:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+    env:
+      TZ: 'Asia/Kolkata'
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
-          
-      - name: Update tracking data
+          fetch-depth: 1
+
+      - name: 'Human Check: Weekends & Variance'
+        id: check
         run: |
-          mkdir -p .sync
+          DAY=$(date +%u) # 1=Mon, 7=Sun
           
-          TIMESTAMP=$(date '+%Y-%m-%d_%H-%M-%S')
-          SYNC_FILE=".sync/data_${TIMESTAMP}.log"
+          # 1. Weekend Logic:
+          # Real developers often don't code on Sundays. 
+          # 50% chance to skip Sunday commits.
+          if [ $DAY -eq 7 ]; then
+             if [ $(( RANDOM % 2 )) -eq 0 ]; then
+                echo "It's Sunday. Taking a break."
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0
+             fi
+          fi
           
-          echo "=== Sync Log ===" > $SYNC_FILE
-          echo "Timestamp: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> $SYNC_FILE
-          echo "Day: $(date '+%A')" >> $SYNC_FILE
-          echo "Week: $(date '+%U')" >> $SYNC_FILE
-          echo "Build: $(git rev-list --count HEAD 2>/dev/null || echo 0)" >> $SYNC_FILE
-          echo "" >> $SYNC_FILE
-          echo "Status: OK" >> $SYNC_FILE
-          echo "Checksum: $RANDOM" >> $SYNC_FILE
-          
-          echo "[$(date '+%Y-%m-%d %H:%M:%S')] Sync completed" >> .sync/history.log
-          
-      - name: Apply timing variance
+          echo "skip=false" >> $GITHUB_OUTPUT
+
+      - name: Generate Useful Content
+        if: steps.check.outputs.skip == 'false'
         run: |
-          DELAY=$((RANDOM % 480))
-          echo "Applying timing variance: $DELAY seconds"
-          sleep $DELAY
+          mkdir -p journal
           
-      - name: Commit updates
+          DATE=$(date '+%Y-%m-%d')
+          FILE="journal/daily_log.md"
+          
+          # Ensure file exists with header
+          if [ ! -f $FILE ]; then
+            echo "# Developer Daily Journal" > $FILE
+            echo "A log of daily repository stats and inspiration." >> $FILE
+            echo "" >> $FILE
+          fi
+          
+          # 1. FETCH A QUOTE (Useful Content)
+          # Tries to fetch a tech quote, falls back to a default if API fails
+          QUOTE=$(curl -s "https://api.quotable.io/random?tags=technology" | grep -o '"content":"[^"]*"' | cut -d'"' -f4)
+          if [ -z "$QUOTE" ]; then
+             QUOTE="Code is like humor. When you have to explain it, it’s bad."
+          fi
+          
+          # 2. GATHER STATS
+          COMMIT_COUNT=$(git rev-list --count HEAD 2>/dev/null || echo "1")
+          REPO_SIZE=$(du -sh . | cut -f1)
+          
+          # 3. PREPEND TO FILE (Newest entries at top)
+          # We create a temporary file to handle the prepend logic cleanly
+          TEMP_CONTENT="### $DATE (IST)
+          - **Status:** Active
+          - **Repo Size:** $REPO_SIZE
+          - **Total Commits:** $COMMIT_COUNT
+          - **Daily Insight:** *$QUOTE*
+          
+          ---
+          "
+          
+          # Add new content to a temp file, then append original content
+          echo "$TEMP_CONTENT" > journal/temp.md
+          cat $FILE >> journal/temp.md
+          
+          # Replace original file (but keep header if we want, or just overwrite)
+          # To keep it simple and clean, let's just keep the last 30 entries logic? 
+          # For now, let's just overwrite the main file with the new sorted content.
+          mv journal/temp.md $FILE
+          
+          # Clean up: Keep file size manageable (keep only top 100 lines)
+          head -n 100 $FILE > journal/temp_clean.md && mv journal/temp_clean.md $FILE
+
+      - name: Commit & Push
+        if: steps.check.outputs.skip == 'false'
         run: |
           git config --global user.name "lovnishverma"
           git config --global user.email "princelv84@gmail.com"
           
-          git add .sync/
+          git add journal/daily_log.md
           
-          MESSAGES=(
-            "Update sync logs and metadata"
-            "Routine tracking data update"
-            "Refresh system metrics"
-            "Log rotation and sync job update"
-            "Periodic repository maintenance"
-            "Update build counter and timestamps"
-            "Record latest sync status"
-            "Refactor sync data structure"
-            "Optimize tracking file layout"
-            "Auto-sync: updated logs"
-            "Improve log accuracy and metadata"
-            "Maintenance: cleanup + new logs"
-            "Update automated tracking entries"
-            "Housekeeping: sync task updates"
-            "Enhance system data consistency"
-            "Sync job: refreshed runtime data"
-            "Auto-update: new tracking snapshot"
-            "Daily metrics update"
-            "Automated log refresh"
-            "Improve workflow metadata"
-          )
-
-          COMMIT_MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
-
-          if git diff --staged --quiet; then
-            echo "No changes detected"
-          else
-            git commit -m "$COMMIT_MSG"
-            git push
-          fi
-          
-      - name: Cleanup old logs
-        run: |
-          find .sync -name "data_*.log" -type f -mtime +30 -delete
-          
-          if ! git diff --quiet .sync/; then
-            git config --global user.name "lovnishverma"
-            git config --global user.email "princelv84@gmail.com"
+          # Only commit if the file actually changed
+          if ! git diff --staged --quiet; then
+            MESSAGES=(
+              "docs: update daily journal"
+              "chore: log repository stats"
+              "docs: add today's insight"
+              "ci: daily health check"
+            )
+            MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
             
-            git add .sync/
-            git commit -m "Clean up old sync logs"
+            git commit -m "$MSG"
             git push
           fi
