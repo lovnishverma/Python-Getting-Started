@@ -856,44 +856,44 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 <div align="center">
 
-> *"This repository stands out as a highly valuable asset for Data Science practitioners. Its well-structured progression, combined with practical, real-world projects, ensures both conceptual clarity and hands-on proficiency."*
-> 
-> **— Anita Budhiraja, Ass. Dean -Academics @ NIELIT Deemed to be University**
+> *"This repository stands out as a high-value asset for Data Science practitioners. Its structured progression, combined with real-world projects, delivers both conceptual clarity and hands-on proficiency."*
+>
+> **— Anita Budhiraja, Assistant Dean (Academics), NIELIT Deemed-to-be University**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"These notebooks provide a hands-on approach and real-world projects that students find engaging. Lovnish has created a truly valuable educational resource."*
-> 
-> **— Dr. Sarwan Singh, Joint Director @ NIELIT CHANDIGARH**
+> *"These notebooks emphasize hands-on learning through real-world projects, making them highly engaging for students. A thoughtfully designed and impactful educational resource."*
+>
+> **— Dr. Sarwan Singh, Joint Director, NIELIT Chandigarh**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"A well-curated resource that effectively bridges theoretical foundations with real-world application. The structured approach makes it both practical and insightful for Data Science professionals"*
-> 
-> **— Aastha Thakur, Data Scientist @ Intel**
+> *"A well-curated resource that effectively bridges theoretical foundations with real-world application. The structured approach makes it both practical and insightful for Data Science professionals."*
+>
+> **— Aastha Thakur, Data Scientist, Intel**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"The best part about this collection is the progressive difficulty. Each notebook builds on the previous one perfectly."*
-> 
-> **— Saurabh Bharti, Project Associate @ IIT ROPAR**
+> *"The progressive learning curve is exceptionally well-designed. Each notebook builds logically on the previous one, creating a seamless learning experience."*
+>
+> **— Saurabh Bharti, Project Associate, IIT Ropar**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"The YOLO object detection tutorials are phenomenal! Built my first computer vision app in just 2 weeks. The explanations are clear and the code actually works!"*
-> 
-> **— Nikshep Paliwal, PHD Scholar @ NIELIT ROPAR**
+> *"The YOLO-based object detection tutorials are highly effective. Within a short time, I was able to build a functional computer vision application. The explanations are clear and the implementation is reliable."*
+>
+> **— Nikshep Paliwal, PhD Scholar, NIELIT Ropar**
 > ⭐⭐⭐⭐⭐
 
 ---
 
-> *"As someone with a technical background, I appreciate how this repository makes complex concepts straightforward and practical. It’s a solid reference that any Data Scientist or AI/ML professional can benefit from."*
-> 
-> **— Fabina Campanari, AI/ML Dev @ Ready Tensor Inc.**
+> *"A technically sound and practical repository that simplifies complex concepts without oversimplifying them. A strong reference for Data Scientists and AI/ML professionals."*
+>
+> **— Fabina Campanari, AI/ML Developer, Ready Tensor Inc.**
 > ⭐⭐⭐⭐⭐
 
 </div>
