@@ -856,7 +856,21 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 <div align="center">
 
-> *"This repository is an excellent resource for Data Science professionals. The structured approach and real-world projects make it highly practical and insightful."*
+> *"This repository stands out as a highly valuable asset for Data Science practitioners. Its well-structured progression, combined with practical, real-world projects, ensures both conceptual clarity and hands-on proficiency."*
+> 
+> **— Anita Budhiraja, Ass. Dean -Academics @ NIELIT Deemed to be University**
+> ⭐⭐⭐⭐⭐
+
+---
+
+> *"These notebooks provide a hands-on approach and real-world projects that students find engaging. Lovnish has created a truly valuable educational resource."*
+> 
+> **— Dr. Sarwan Singh, Joint Director @ NIELIT CHANDIGARH**
+> ⭐⭐⭐⭐⭐
+
+---
+
+> *"A well-curated resource that effectively bridges theoretical foundations with real-world application. The structured approach makes it both practical and insightful for Data Science professionals"*
 > 
 > **— Aastha Thakur, Data Scientist @ Intel**
 > ⭐⭐⭐⭐⭐
@@ -870,16 +884,9 @@ print(f"Expected shape: {expected}, Got: {actual.shape}")
 
 ---
 
-> *"These notebooks provide a hands-on approach and real-world projects that students find engaging. Lovnish has created a truly valuable educational resource."*
-> 
-> **— Dr. Sarwan Singh, Joint Director @ NIELIT CHANDIGARH**
-> ⭐⭐⭐⭐⭐
-
----
-
 > *"The YOLO object detection tutorials are phenomenal! Built my first computer vision app in just 2 weeks. The explanations are clear and the code actually works!"*
 > 
-> **— Ravi Kant, Project Assistant @ NIELIT ROPAR**
+> **— Nikshep Paliwal, PHD Scholar @ NIELIT ROPAR**
 > ⭐⭐⭐⭐⭐
 
 ---
